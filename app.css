@@ -165,10 +165,12 @@ span.nav-icons{
     background-color: bisque;
     display: flex;
     justify-content: space-between;
+    
 }
 
 .mid-feed{
     width: 100%;
+    padding: 15px;
 }
 
 
@@ -177,7 +179,7 @@ span.nav-icons{
     display: flex;
     justify-content: space-between;
     width: 100%;
-    padding: 15px;
+    
 }
 
 .mid-text{
@@ -188,6 +190,7 @@ span.nav-icons{
 
 .right-search-container{
     background-color: aquamarine;
+    padding: 15px;
 }
 
 .right-search-container h1{
