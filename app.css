@@ -65,6 +65,7 @@ font-size: 1.2rem;
     font-size: 1.2rem;
     margin: 0;
     padding-left: 15px;
+    cursor: pointer;
 }
 
 
@@ -73,4 +74,17 @@ span.nav-icons{
     color: var(--light-theme-icons);
     font-weight:500;
     
+}
+
+.post-btn{
+    background-color: var(--post-btn-light);
+    color: #FAFAFA;
+    padding: 12px 6px;
+    font-size: 1rem;
+    text-align: center;
+    width: 230px;
+    border-radius: 35px;
+    border: none;
+    font-weight: bold;
+    cursor: pointer;
 }
