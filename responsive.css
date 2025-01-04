@@ -1,8 +1,59 @@
 /* for phone responsive */
 @media screen and (max-width: 500px) {
-    
+    .left-nav-container{
+    background-color: brown;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: auto;
+    z-index: 1;
+    padding: 15px;
+        
+    }
 }
 
 /* for tablet responsive */
+@media screen and (min-width: 501px) and (max-width: 1271px)  {
 
+    .container{
+         display: grid;
+         width: 100%;
+        grid-template-columns: 150px 2fr 1fr;
+        position: relative;
+        height: 100vh;
+        align-items: center;
+    } 
+
+    .left-nav-container{
+        display: block;
+        width: 150px;
+        justify-self: center;
+        align-self: center;
+        text-align: center;
+        
+    }
+
+    .icon-text{
+        display: flex;
+        justify-content: center;
+    }
+
+    .nav-text{
+        display: none;
+    }
+
+    .post-btn{
+        display: none;
+    }
+    #btn-icon{
+        display: block;
+    }
+    .middle-feed-container{
+        margin-left: 0;
+    }
+}
 /* for desktop/laptops */
+@media screen and (min-width: 1276px) {
+    
+}

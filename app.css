@@ -118,3 +118,9 @@ span.nav-icons{
     font-weight: bold;
     cursor: pointer;
 }
+
+#btn-icon{
+    display: none;
+    font-size: 34px;
+    font-weight:500;
+}
