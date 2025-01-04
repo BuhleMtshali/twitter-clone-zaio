@@ -15,3 +15,7 @@
     --post-now-btn-light: rgb(135, 137,140);
    
 }
+body{
+    font-family: "Archivo", serif;
+    margin: 0;
+}
