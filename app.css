@@ -9,7 +9,9 @@
     --light-theme-text-color:#44484D;
     --light-theme-search-bar-bg:#EFF3F4;
     --light-theme-placeholder-text-color:#5B6B78;
+    --light-theme-nav-text-color:#363A3F;
     --light-theme-bg: #FFFFFF;
+    --light-theme-icons: #0F1419;
     --post-btn-light: #272C30;
     --blod-black-color-lighttheme:#0F1419;
     --post-now-btn-light: rgb(135, 137,140);
@@ -27,4 +29,17 @@ body{
 
 .left-nav-container{
     text-align: left;
+}
+
+/* styles for the light theme background */
+
+.nav-text{
+    color: var(--light-theme-nav-text-color);
+    font-size: 1.2rem;
+}
+
+span.material-symbols-outlined{
+    font-size: 34px;
+    color: var(--light-theme-icons);
+    
 }
