@@ -23,20 +23,39 @@ body{
     margin: 0;
     background-color: var(--light-theme-bg);
     user-select: none;
+   
 }
 
 .container{
-    width: 100%;
     padding: 20px;
-    display: grid;
+     display: grid;
+     width: 100%;
     grid-template-columns: 1fr 3fr 2fr;
-}
+    position: relative;
+    
+    
+} 
 
 .left-nav-container{
     text-align: left;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 250px;
+    background-color: #D2D3D4;
     
 }
 
+
+.middle-feed-container{
+    background-color: #6F4EA9;
+    
+    
+}
+
+.right-search-container{
+    background-color: #1D9BF0;
+}
 /* styles for the light theme background */
 .logo{
    margin-bottom: 20px; 
