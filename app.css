@@ -38,9 +38,6 @@ body{
     
 } 
 
-
-
-
 .left-nav-container{
     text-align: left;
     position: fixed;
@@ -68,7 +65,7 @@ body{
 }
 /* styles for the light theme background */
 .logo{
-   margin-bottom: 20px; 
+   margin-bottom: 10px; 
 }
 
 .active-nav.nav-text {
@@ -138,9 +135,7 @@ span.nav-icons{
 .avatar-container{
     justify-content: space-between;
     border-radius: 35px;
-    margin-top: 30px;
-    
-    
+    margin-top: 10px;
 }
 .avatar-container:hover{
     background-color: var(--light-theme-search-bar-bg);

@@ -3,19 +3,42 @@
     .container{
         display: flex;
         flex-direction:column ;
+        align-content: space-between;
+        height: 100%;
+    }
+    .logo {
+        display: none;
     }
     .left-nav-container{
     background-color: brown;
-    position: relative;
+    padding: 0;
+    position: sticky;
     bottom: 0;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    margin-top: auto;
+    left: 0;
     width: 100%;
-    
+    height: 110px;
+    z-index: 0;
+    display: flex;
 } 
 
+.middle-feed-container{
+    position: relative;
+    top: 0;
+    background-color: aqua;
+    width: 100%;
+    height: 100%;
+}
+
+.nav-text{
+    display: none;
+}
+
+.avatar-container{
+    display: none;
+}
+.hidden{
+    display: none;
+}
 }
 
 
