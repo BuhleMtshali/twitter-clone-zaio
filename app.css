@@ -187,10 +187,12 @@ span.nav-icons{
     font-weight: 600;
     cursor: pointer;
     width: 50%;
+    transition: all 0.2s ease-in-out;
 }
 
 .mid-text:hover{
-    background-color: var(--username-color);
+    background-color:#E7E7E8;
+    padding: 10px 14px;
 }
 
 
@@ -201,4 +203,12 @@ span.nav-icons{
 
 .right-search-container h1{
 margin: 0;
+}
+
+.blue-underline{
+    text-decoration: underline;
+    text-decoration-color: var(--blue-color);
+    text-decoration-thickness: 3px;
+    text-underline-offset: 10px;
+    
 }
