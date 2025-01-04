@@ -34,11 +34,12 @@ body{
 
 .left-nav-container{
     text-align: left;
+    
 }
 
 /* styles for the light theme background */
 .logo{
-   margin-bottom: 15px; 
+   margin-bottom: 20px; 
 }
 
 .active-nav.nav-text {
@@ -54,16 +55,16 @@ font-size: 1.2rem;
 .icon-text{
     display: flex;
     align-items: center;
-    padding: 6px;
+    padding: 12px 6px;
     justify-content: left;
 }
 
 
 .nav-text{
     color: var(--light-theme-nav-text-color);
-    font-size: 1.15rem;
+    font-size: 1.2rem;
     margin: 0;
-    padding-left: 10px;
+    padding-left: 15px;
 }
 
 
