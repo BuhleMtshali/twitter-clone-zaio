@@ -30,7 +30,7 @@ body{
     /* padding: 20px; */
      display: grid;
      width: 100%;
-    grid-template-columns: 250px 2fr 1fr;
+    grid-template-columns: 250px 3fr;
     position: relative;
     height: 100vh;
     /* gap: 20px; */
@@ -44,9 +44,10 @@ body{
     top: 0;
     left: 0;
     width: 250px;
-    height: auto;
+    height: 100%;
     z-index: 1;
     padding: 15px;
+   border-right: 1px solid var(--dark-theme-text-color);
     
 }
 
@@ -59,12 +60,12 @@ body{
     
 }
 
-.right-search-container{
+/* .right-search-container{
     height: 100vh;
     grid-column: 3;
     height: 100%;
     padding: 15px;
-}
+} */
 
 
 /* styles for the light theme background */
@@ -76,6 +77,11 @@ body{
 font-weight: bold;
 font-size: 1.2rem;
 }
+
+.active-nav {
+    font-weight:900;
+    font-size: 3rem;
+    }
 
 .active-nav.material-symbols-outlined{
     font-weight: bold;
@@ -125,14 +131,37 @@ span.nav-icons{
     font-weight:500;
 }
 
-/* .avatar-container{
-    justify-content: space-evenly;
-} */
-
+.avatar-container{
+    justify-content: space-between;
+    border-radius: 35px;
+    margin-top: 30px;
+    
+    
+}
+.avatar-container:hover{
+    background-color: var(--light-theme-search-bar-bg);
+    
+}
 .user-avatar{
     border-radius: 50%;
     width: 45px;
     height: 45px;
     padding: 8px;
+    background-color: var(--user-icon-bg);
+    color: var(--dark-theme-bold-text);
+    border: none;
+    font-size: 1.2rem;
+    cursor: pointer;
+}
 
+.username{
+    color: var(--light-theme-icons);
+    font-weight: 600;
+    font-size: 1.2rem;
+}
+
+.user-link{
+    font-size: 1rem;
+    color: #536471;
+    font-weight: lighter;
 }
