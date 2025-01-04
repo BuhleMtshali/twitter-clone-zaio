@@ -1,6 +1,7 @@
 :root{
     --dark-theme-bg: #000000;
     --dark-theme-text-color: #D2D3D4;
+    --dark-theme-icon-color: #E7E9EA;
     --dark-theme-bold-text:#E7E9EA;
     --free-trial-btn-light:#272C30;
     --blue-color:#1D9BF0;
@@ -21,6 +22,7 @@ body{
     font-family: "Archivo", serif;
     margin: 0;
     background-color: var(--light-theme-bg);
+    user-select: none;
 }
 
 .container{
@@ -35,22 +37,38 @@ body{
 }
 
 /* styles for the light theme background */
+.logo{
+   margin-bottom: 15px; 
+}
+
+.active-nav.nav-text {
+font-weight: bold;
+font-size: 1.2rem;
+}
+
+.active-nav.material-symbols-outlined{
+    font-weight: bold;
+    font-size: 36px;
+}
+
 .icon-text{
     display: flex;
     align-items: center;
-    padding: 4px;
-    justify-content: space-between;
+    padding: 6px;
+    justify-content: left;
 }
 
 
 .nav-text{
     color: var(--light-theme-nav-text-color);
-    font-size: 1.2rem;
+    font-size: 1.15rem;
     margin: 0;
+    padding-left: 10px;
 }
 
-span.material-symbols-outlined{
+span.nav-icons{
     font-size: 34px;
     color: var(--light-theme-icons);
+    font-weight:500;
     
 }
