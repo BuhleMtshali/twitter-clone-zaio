@@ -24,7 +24,10 @@ body{
 }
 
 .container{
+    width: 100%;
     padding: 20px;
+    display: grid;
+    grid-template-columns: 1fr 3fr 2fr;
 }
 
 .left-nav-container{
@@ -32,10 +35,18 @@ body{
 }
 
 /* styles for the light theme background */
+.icon-text{
+    display: flex;
+    align-items: center;
+    padding: 4px;
+    justify-content: space-between;
+}
+
 
 .nav-text{
     color: var(--light-theme-nav-text-color);
     font-size: 1.2rem;
+    margin: 0;
 }
 
 span.material-symbols-outlined{
