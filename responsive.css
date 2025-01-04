@@ -25,6 +25,21 @@
         align-items: center;
     } 
 
+    .logo{
+        margin-bottom: 45px;
+       justify-content: center;
+       align-items: center;
+    }
+
+    .logo img{
+        width: 60px;
+        height: 60px;
+    }
+
+    .logo-text{
+        display: none;
+    }
+
     .left-nav-container{
         display: block;
         width: 150px;
@@ -50,7 +65,15 @@
         display: block;
     }
     .middle-feed-container{
-        margin-left: 0;
+        margin-left: 25px;
+    }
+    
+    .username{
+        display: none;
+    }
+
+    #more {
+        display: none;
     }
 }
 /* for desktop/laptops */

@@ -38,6 +38,9 @@ body{
     
 } 
 
+
+
+
 .left-nav-container{
     text-align: left;
     position: fixed;
@@ -47,10 +50,14 @@ body{
     height: 100%;
     z-index: 1;
     padding: 15px;
-   border-right: 1px solid var(--dark-theme-text-color);
+   border-right: 1px solid #E7E7E8;
     
 }
 
+.logo{
+    display: flex;
+    align-items: center;
+}
 
 .middle-feed-container{
     grid-column: 2;
