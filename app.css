@@ -124,3 +124,15 @@ span.nav-icons{
     font-size: 34px;
     font-weight:500;
 }
+
+/* .avatar-container{
+    justify-content: space-evenly;
+} */
+
+.user-avatar{
+    border-radius: 50%;
+    width: 45px;
+    height: 45px;
+    padding: 8px;
+
+}
