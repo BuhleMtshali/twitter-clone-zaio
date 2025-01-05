@@ -245,3 +245,7 @@ small{
     color: var(--light-theme-bg);
     
 }
+
+.faded-color{
+    color:#536471;
+}
