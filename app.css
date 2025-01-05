@@ -175,6 +175,7 @@ span.nav-icons{
 .feed-container{
     background-color: #E7E7E8;
     width: 100%;
+    padding: 20px;
 }
 
 .trending-container{
@@ -186,4 +187,15 @@ span.nav-icons{
     display: flex;
     justify-content: space-between;
     width: 100%;
+}
+.feed-text{
+    font-size: 1.2rem;
+}
+
+.active-feed{
+    font-weight: 600;
+    text-decoration: underline;
+    text-decoration-color: var(--blue-color);
+    text-decoration-thickness: 3px;
+    text-underline-offset: 10px;
 }
