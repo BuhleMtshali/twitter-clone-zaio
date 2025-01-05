@@ -140,6 +140,7 @@ span.nav-icons{
     border: none;
     font-size: 1.2rem;
     cursor: pointer;
+    margin-right: 8px;
 }
 
 .username{
@@ -154,15 +155,16 @@ span.nav-icons{
     font-weight: lighter;
 }
 
-
+.avata{
+    display: flex;
+    align-items: center;
+}
 /* styles for the middle feed page */
 
 .middle-feed-container{
     grid-column: 2;
     height: 100%;
     width: 75%;
-    display: flex;
-    justify-content: space-between;
     padding-top: 35px;
     
 }

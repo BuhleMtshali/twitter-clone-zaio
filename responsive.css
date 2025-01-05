@@ -96,16 +96,18 @@ button.post-btn{
 
 
 
-@media screen and (min-width: 769px) {
+@media screen and (min-width: 769px) and (max-width: 1000px) {
     .container{
         width: 100%;
     }
     .left-nav-container{
-        height: auto;
+        height: 100%;
 
     }
     .middle-feed-container{
         height: 100%;
     }
-    
+    #more{
+        display: none;
+    }
 }
