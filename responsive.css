@@ -74,7 +74,7 @@ textarea{
     text-align: center;
 }
 
-#hide-poll{
+#hide-poll, #hide-event{
     display: none;
 }
 
@@ -120,6 +120,17 @@ textarea{
     
     .feed-container{
         width: 100%;
+        justify-content: center;
+    }
+
+    .show-more-band{
+        display: flex;
+        justify-content: center;
+        width: 100%;
+        text-align: center;
+    }
+    .show-more-text{
+        text-align: center;
     }
 } 
 
@@ -142,6 +153,7 @@ textarea{
 
     .feed-container{
         width: 100%;
+        justify-self: center;
     }
     #more{
         display: none;
@@ -163,5 +175,14 @@ textarea{
     }
     .username, .user-link{
         display: none;
+    }
+    .show-more-band{
+        display: flex;
+       justify-self: center;
+        width: 100%;
+        text-align: center;
+    }
+    .show-more-text{
+        text-align: center;
     }
 }
