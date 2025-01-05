@@ -279,3 +279,18 @@ small{
     cursor: pointer;
     text-align: center;
 }
+#user-profile-pic{
+    width: 60px;
+    height: 60px;
+    object-fit: cover;
+    object-position: center;
+    border-radius: 50%;
+}
+
+#tweet-media{
+    width: 516px;
+    height: 404px;
+    object-fit: cover;
+    object-position: center;
+    border-radius: 12px;
+}
