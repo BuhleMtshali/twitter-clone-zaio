@@ -295,7 +295,7 @@ small{
 
 #tweet-media{
     width: 100%;
-    height: 404px;
+    height: 420px;
     object-fit: cover;
     object-position: center;
     border-radius: 12px;
@@ -336,23 +336,36 @@ padding-right: 3px;
 }
 
 .trending-container{
-    background-color: #1D9BF0;
-    width: 100%;
+    width: 400px;
     display: flex;
     text-align: center;
     flex-direction: column;
+    padding: 20px;
 }
 
 .search-container{
     position: sticky;
+    top: 0;
+    width: 100%;
+    border: none;
 }
 
 input[type=search]{
-    background-color: var(--light-theme-bg);
+    background-color: #EFF3F4;
     background-image: url('assets/magnifying-glass-solid.svg');
     background-repeat: no-repeat;
-    padding: 12px 20px 12px 40px;
-    width: 80%;
+    background-size: 30px 30px;
+    background-position: 12px 11px;
+    padding: 16px 20px 12px 40px;
+    width: 100%;
     margin: 0 auto;
+    border: none;
+    border-radius: 26px;
+    font-size: 16px;
+    font-weight: 600;
 }
 
+input::placeholder{
+    font-size: 20px;
+    padding-left: 15px;
+}
