@@ -178,7 +178,7 @@ span.nav-icons{
 
 .feed-container{
     width: 100%;
-    padding: 20px;
+    padding: 15px ;
 }
 
 .trending-container{
@@ -190,6 +190,11 @@ span.nav-icons{
     display: flex;
     justify-content: space-between;
     width: 100%;
+    position: sticky;
+    top: 0;
+    z-index: 1;
+    
+    
 }
 .feed-text{
     font-size: 1.2rem;
@@ -301,9 +306,9 @@ small{
 }
 
 .tweet-caption{
-   word-wrap: break-word;
+  word-break: break-all;
     line-height: 1.6;
-    margin-top: 8px;
+    margin-top: 4px;
     margin-bottom: 8px;
 }
 .tweet-container{
@@ -314,15 +319,22 @@ small{
 h3.user-name{
     margin: 0;
     display: flex;
+    font-size: 17px;
    
 }
-.user-handle{
+.user-handle, .time{
 color: rgb(83, 100, 113);
 font-weight: lighter;
 font-size: 14px;
+padding-right: 3px;
 }
 
 .verified{
     color: var(--blue-color);
-    padding-left: 0 5px;
+    padding: 0 3px 0 0;
+}
+.tweet-likes{
+    display: flex;
+    justify-content: space-between;
+    color: rgb(83, 100, 113);
 }
