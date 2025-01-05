@@ -32,11 +32,9 @@ body{
     /* padding: 20px; */
      display: grid;
      width:100%;
-     max-width: 100%;
-     box-sizing: border-box;
      margin: 0 auto;
      justify-content: center;
-    grid-template-columns: 250px 3fr;
+    grid-template-columns: 25% 75%;
     position: relative;
     height: 100%;
     /* gap: 20px; */
@@ -49,7 +47,7 @@ body{
     position: fixed;
     top: 0;
     left: 0;
-    width: 259px;
+    width: 25%;
     margin: 0 auto;
     height: 100%;
     z-index: 1;
@@ -162,7 +160,7 @@ span.nav-icons{
 .middle-feed-container{
     grid-column: 2;
     height: 100%;
-    width: 947px;
+    width: 75%;
     display: flex;
     justify-content: space-between;
     padding-top: 35px;
