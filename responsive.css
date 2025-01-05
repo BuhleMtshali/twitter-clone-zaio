@@ -49,20 +49,33 @@
 .avatar-container{
     display: none;
 }
-.hidden{
-    display: none;
-}
+
 
 button.post-btn{
     display: none;
 }
-
+.hidden{
+    display: none;
+}
 .trending-container{
     display: none;
 }
 
 .feed-container{
     width: 100%;
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+    justify-content: center;
+    align-items: center;
+}
+textarea{
+    width: 250px;
+    text-align: center;
+}
+
+#hide-poll{
+    display: none;
 }
 
 }

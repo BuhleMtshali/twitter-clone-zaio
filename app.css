@@ -177,7 +177,6 @@ span.nav-icons{
 
 
 .feed-container{
-    background-color: #E7E7E8;
     width: 100%;
     padding: 20px;
 }
@@ -213,12 +212,36 @@ textarea{
     height: 120px;
     resize: none;
     border: none;
-    background: var(--light-theme-bg)
-
+    background: var(--light-theme-bg);
+    font-size: 1.5rem
 }
 ::placeholder{
     color: var(--light-theme-placeholder-text-color);
-    font-size: 1.3rem;
+    font-size: 1.5rem;
     padding-left: 10px;
     padding-top: 10px;
+    font-weight: 600;
+    
+}
+.button-textarea span{
+    color: var(--blue-color);
+    padding: 8px 8px;
+    font-size: 30px;
+    
+}
+small{
+    color: var(--blue-color);
+    font-size: 17px;
+    display: none;
+}
+
+.post-now-btn{
+    padding: 8px 8px;
+    font-size: 14px;
+    cursor: pointer;
+    border:none;
+    border-radius: 9px;
+    background: var(--post-btn-light);
+    color: var(--light-theme-bg);
+    
 }
