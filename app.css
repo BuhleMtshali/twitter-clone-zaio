@@ -279,6 +279,11 @@ small{
     cursor: pointer;
     text-align: center;
 }
+
+.user-infor{
+    width: 100%;
+    padding-left: 12px;
+}
 #user-profile-pic{
     width: 60px;
     height: 60px;
@@ -288,9 +293,36 @@ small{
 }
 
 #tweet-media{
-    width: 516px;
+    width: 100%;
     height: 404px;
     object-fit: cover;
     object-position: center;
     border-radius: 12px;
+}
+
+.tweet-caption{
+   word-wrap: break-word;
+    line-height: 1.6;
+    margin-top: 8px;
+    margin-bottom: 8px;
+}
+.tweet-container{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 15px;
+}
+h3.user-name{
+    margin: 0;
+    display: flex;
+   
+}
+.user-handle{
+color: rgb(83, 100, 113);
+font-weight: lighter;
+font-size: 14px;
+}
+
+.verified{
+    color: var(--blue-color);
+    padding-left: 0 5px;
 }
