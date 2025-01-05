@@ -126,6 +126,10 @@ button.post-btn{
        width: 100%;
      
     }
+
+    .feed-container{
+        width: 100%;
+    }
     #more{
         display: none;
     }
