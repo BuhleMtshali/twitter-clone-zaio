@@ -29,6 +29,10 @@ body,html{
 *{
     box-sizing: border-box;
 }
+
+*:focus{
+    outline: none;
+}
 .container{
     /* padding: 20px; */
      display: grid;
@@ -198,4 +202,23 @@ span.nav-icons{
     text-decoration-color: var(--blue-color);
     text-decoration-thickness: 3px;
     text-underline-offset: 10px;
+}
+.top-searchbar{
+    display: flex;
+    justify-content: left;
+    margin-top: 30px;
+}
+textarea{
+    width: 512px;
+    height: 120px;
+    resize: none;
+    border: none;
+    background: var(--light-theme-bg)
+
+}
+::placeholder{
+    color: var(--light-theme-placeholder-text-color);
+    font-size: 1.3rem;
+    padding-left: 10px;
+    padding-top: 10px;
 }
