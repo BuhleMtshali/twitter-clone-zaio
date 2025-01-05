@@ -85,6 +85,10 @@ textarea{
         display: none;
     }
 
+    #hide-poll, #hide-event{
+        display: none;
+    }
+
     .logo-text{
         display: none;
     }

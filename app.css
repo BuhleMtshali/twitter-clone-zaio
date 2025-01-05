@@ -318,6 +318,12 @@ h3.user-name{
     font-size: 17px;
    
 }
+
+.user-handle:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+
 .user-handle, .time{
 color: rgb(83, 100, 113);
 font-weight: lighter;
@@ -368,4 +374,28 @@ input[type=search]{
 input::placeholder{
     font-size: 20px;
     padding-left: 15px;
+}
+
+.try-premium-container{
+    width: 100%;
+    height: 174px;
+    padding: 12px 13px;
+    border: 1px solid #E7E7E8;
+    margin-top: 20px;
+    border-radius: 16px;
+   
+}
+
+.try-premium-container h2{
+    margin-bottom: 5px;
+    margin-top: 5px;
+    text-align: left;
+}
+.premium-text{
+    text-align: left;
+    margin-top: 0;
+    margin-bottom: 5px;
+    line-height: 1.6;
+    font-size: 18px;
+    color: rgb(15, 20, 25);
 }
