@@ -11,9 +11,11 @@
         /* padding: 10px; */
 
     }
+
     .logo {
         display: none;
     }
+
     .left-nav-container{
     background-color: #E5E5E6;
     padding: 0;
@@ -37,9 +39,9 @@
     padding: 0;
     /* display: flex;
     justify-content: flex-start;
-    flex-direction: column;
-    width: 100%; */
-   grid-column: 2/span 2;
+    flex-direction: column; */
+    width: 100%; 
+   /* grid-column: 2/span 2; */
 }
 
 .nav-text{
