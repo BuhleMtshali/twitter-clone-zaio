@@ -71,15 +71,23 @@ button.post-btn{
     justify-content: center;
     align-items: center;
 }
-/* textarea{
-    width: 100%;
-    text-align: center;
-} */
+
+.top-searchbar{
+    width: 200px;
+}
 
 #hide-poll, #hide-event{
     display: none;
 }
 
+.top-searchbar button{
+    display: none;
+}
+.icons{
+    display: flex;
+    justify-content:flex-start;
+    width: 100%;
+}
 
 }
 

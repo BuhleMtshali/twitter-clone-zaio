@@ -401,3 +401,13 @@ input::placeholder{
     font-size: 18px;
     color: rgb(15, 20, 25);
 }
+p i{
+    cursor: pointer;
+}
+.fa-comment:hover{
+    color: var(--blue-color);
+}
+
+.fa-heart:hover{
+    color: rgb(249, 24, 128);
+}
